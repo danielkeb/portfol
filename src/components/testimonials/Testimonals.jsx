@@ -29,8 +29,8 @@ const Testimonals = () => {
       <div className='client_avator'>
         <img src={AVTR1} alt=""/> 
         </div>
-      <h5 className='client_name'>Dawit</h5>
-      <article> project Manager</article>
+      <h5 className='client_name'>Binyam</h5>
+      <article> UX/UI Designer</article>
       <small className='client_review'>
       Daniel's expertise in backend development was instrumental in the success of our recent web application project.
       His commitment to creating a robust and scalable backend architecture ensured that our application not only met but exceeded performance expectations. 
