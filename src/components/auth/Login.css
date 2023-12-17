@@ -1,0 +1,21 @@
+/* Login.css */
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-top: 200px;
+  }
+  .btn{
+    text-align: center;
+    margin-left: 150px;
+  }
+  #form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
