@@ -19,12 +19,12 @@
   background: transparent;
 }
 
-.portfolio_item-image{
-  border-radius: 1.5rem;
-  overflow: hidden;
-  width: 23rem;
-  height: 30rem;
-
+.portfolio_item-description {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow for depth */
 }
 
 .portfolio_item h3{
@@ -37,7 +37,10 @@ h3{
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  margin-left: 10rem;
 }
+
+
 @media  screen and (max-width:1024px) {
   .porfolio_container{
       grid-template-columns: 1fr 1fr;
@@ -47,6 +50,14 @@ h3{
   .portfolio{
       height: auto;
   }
+}
+.portfolio_item-description h2 {
+  color: #ffcc00; /* Custom heading color */
+}
+
+.portfolio_item-description p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 @media screen and (max-width:600px){
